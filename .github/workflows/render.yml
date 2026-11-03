@@ -28,7 +28,7 @@ jobs:
 
       - name: Render video
         working-directory: ./project_folder
-        run: npx remotion render Root out/video.mp4
+        run: npx remotion render Main out/video.mp4
 
       - name: Upload rendered video
         uses: actions/upload-artifact@v4
